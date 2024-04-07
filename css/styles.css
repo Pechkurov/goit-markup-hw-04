@@ -1,0 +1,337 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+button {
+    cursor: pointer;
+}
+address {font-style: normal;}
+img {
+    display: block;
+    max-width: 100%;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+/* ---------------HEADER------------------------ */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+    text-decoration: none;
+    margin-right: 76px
+}
+.header-container {
+    display: flex;
+}
+.header-nav {
+    display: flex;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+
+}
+.header-logo-web {
+    color: #2e2f42;
+    padding: 24px 0;
+}
+.ul-nav {
+    list-style: none;
+}
+.ul-nav {
+    display: flex;
+    gap: 40px;
+}
+.nav-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-decoration: none;
+padding: 24px 0;
+}
+.nav-list:hover {
+    color: #404bbf;
+}
+.nav-list:focus {color: #404bbf;
+}
+/* ---------------------------ADDRESS---------------------- */
+.address {font-style: normal;}
+.ul-address {
+    list-style: none;
+}
+.ul-address {
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.nav-address {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+text-decoration: none;
+font-style: normal;
+}
+.nav-address:hover {color: #404bbf;}
+.nav-address:focus {color: #404bbf;}
+/* ------------------------------SECTION ONE------------- */
+.section-one {
+    background-color: #2e2f42;
+    padding-top: 188px;
+padding-bottom: 188px;
+}
+.top-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+background-color: #2e2f42;
+max-width: 496px;
+margin: 0 auto;
+margin-bottom: 48px;
+}
+.order-buttom {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background-color: #4d5ae5;
+cursor: pointer;
+padding: 16px 32px 16px 32px;
+max-width: 496px;
+margin: 0 auto;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
+}
+.order-buttom:hover {background-color: #404BBF;}
+.order-buttom:focus {background-color:#404BBF;}
+/* ---------------------------SECTION 2---------------------------- */
+
+.section-two {
+    padding: 120px 0;
+}
+.ul-accomplishments{
+    display: flex;
+    gap: 24px;
+    
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.accomplishments-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+cursor: pointer;
+
+padding-left: 0;
+margin: 0;
+}
+.accomplishments-list {
+    margin-bottom: 8px;
+}
+.accomplishments-item{
+    width: calc((100% - 3 * 24px) / 4);
+}
+.ul-accomplishments {list-style: none;}
+.accomplishments-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+margin-bottom: 8px;
+padding-left: 0;
+margin: 0;
+}
+/* -------------------------------SECTION 3------------------- */
+.team {background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.team-info {
+    width: calc((100% - 72px) / 4); 
+}
+.container-team {
+    padding: 32px 0;
+}
+.team-paragraph {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+margin-bottom: 72px;
+
+}
+.team-info {background-color: #FFFFFF; 
+    border-radius: 0px 0px 4px 4px;
+ }
+.container-name {
+    padding: 32px 0;
+    text-align: center;
+} 
+.team-list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    
+}
+.team-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+background-color: #FFFFFF;
+margin-bottom: 8px;
+text-align: center;
+}
+.team-job {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+text-align: center;
+}
+
+/* -------------------------------SECRION 4--------------- */
+.portfilio-list {
+    width: calc((100% - 48px) / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.container-list {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    
+}
+.portfolio-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+margin-bottom: 72px;
+}
+.portfolio-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+.portfolio-work {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.portfolio-foto-human {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 48px 24px;
+}
+.footer {
+    background-color: #2e2f42;
+}
+/* ------------------------------FOOTER------------------------- */
+.footer {
+    padding: 100px 0;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    background-color: #2e2f42;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-logo-web {
+    color: #f4f4fd;
+
+   
+}
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+background-color: #2e2f42;
+max-width: 264px;
+}
