@@ -359,6 +359,29 @@ color: #434455;
 .footer {
     background-color: #2e2f42;
 }
+.portfolio-list:hover.image-paragraph{
+    transform: translateY(0);
+}
+.image-paragraph{
+    position: relative;
+    top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    width: 360px;
+    height: 300px;
+    transform: translateY(100%);
+    transition: transform 250ms;
+
+}
+/* .foto-text{
+    position: relative;
+    overflow: hidden;
+} */
 /* ------------------------------FOOTER------------------------- */
 .footer {
     padding: 100px 0;
@@ -390,4 +413,14 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 background-color: #2e2f42;
 max-width: 264px;
+}
+.footer-item{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+width: 208px;
+height: 80px;
+max-width: 280px;
 }
