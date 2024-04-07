@@ -227,7 +227,9 @@ height: 112px;
 background: #f4f4fd;
 width: 264px;
 height: 112px;
-
+display: flex;
+align-items: center;
+justify-content: center;
 }
 /* -------------------------------SECTION 3------------------- */
 .team {background-color: #F4F4FD;
@@ -413,6 +415,7 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 background-color: #2e2f42;
 max-width: 264px;
+
 }
 .footer-item{
 font-weight: 500;
