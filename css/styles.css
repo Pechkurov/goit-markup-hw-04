@@ -79,6 +79,21 @@ padding: 24px 0;
 }
 .nav-list:focus {color: #404bbf;
 }
+.underscore {
+    position: relative;
+    color: #404bbf;
+}
+.underscore::after{
+position: absolute;
+display: block;
+bottom: -1px;
+right: 0;
+content: "";
+border-radius: 2px;
+width: 48px;
+height: 4px;
+background-color: #404bbf;
+}
 /* ---------------------------ADDRESS---------------------- */
 .address {font-style: normal;}
 .ul-address {
@@ -107,7 +122,16 @@ font-style: normal;
     background-color: #2e2f42;
     padding-top: 188px;
 padding-bottom: 188px;
-background-image: url(../images/);
+background-image:linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url(../images/people-office1.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ max-width: 1440px;
+ margin-left: auto;
+ margin-right: auto;
 }
 .top-title {
     font-family: "Roboto", sans-serif;
@@ -117,7 +141,6 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-background-color: #2e2f42;
 max-width: 496px;
 margin: 0 auto;
 margin-bottom: 48px;
