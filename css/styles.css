@@ -29,7 +29,6 @@ img {
 /* ---------------HEADER------------------------ */
 .header {
     border-bottom: 1px solid #e7e9fc;
-
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -59,6 +58,7 @@ img {
 }
 .ul-nav {
     list-style: none;
+
 }
 .ul-nav {
     display: flex;
@@ -73,6 +73,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-decoration: none;
 padding: 24px 0;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list:hover {
     color: #404bbf;
@@ -82,6 +83,7 @@ padding: 24px 0;
 .underscore {
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .underscore::after{
 position: absolute;
@@ -93,7 +95,12 @@ border-radius: 2px;
 width: 48px;
 height: 4px;
 background-color: #404bbf;
+left: 0;
 }
+.container header-container{box-shadow: 0px 2px 1px 
+    rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+     0px 1px 6px rgba(46, 47, 66, 0.08);}
 /* ---------------------------ADDRESS---------------------- */
 .address {font-style: normal;}
 .ul-address {
@@ -166,6 +173,7 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-buttom:hover {background-color: #404BBF;}
 .order-buttom:focus {background-color:#404BBF;}
@@ -234,6 +242,7 @@ height: 112px;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-bottom: 8px;
 }
 /* -------------------------------SECTION 3------------------- */
 .team {background-color: #F4F4FD;
@@ -259,12 +268,13 @@ text-transform: capitalize;
 margin-bottom: 72px;
 
 }
-.team-info {background-color: #FFFFFF; 
+.team-info {transition: background-color 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1); 
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.17),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
  }
+ .team-info{ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.17),
+    0px 2px 1px rgba(46, 47, 66, 0.08);}
 .container-name {
     padding: 32px 0;
     text-align: center;
@@ -301,7 +311,7 @@ text-align: center;
     justify-content: center;
     gap: 24px;
     list-style: none;
-    
+    fill: #f4f4fd;
 }
 .team-icon-item{
     width: 40px;
@@ -317,8 +327,9 @@ text-align: center;
     justify-content: center;
 }
 .team-icon :hover {
-    background-color:
+    background-color:#404bbf;
 }
+.team-icon :focus{background-color:#404bbf;}
 /* -------------------------------SECRION 4--------------- */
 .portfolio-list {
     width: calc((100% - 48px) / 3);
@@ -329,8 +340,9 @@ text-align: center;
 }
 .portfolio-list:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.17),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
     }
 
 .portfolio {
@@ -346,6 +358,8 @@ border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 width: 360px;
 height: 120px;
+position: relative;
+
 }
 .portfolio-paragraph {
     font-family: "Roboto", sans-serif;
@@ -431,7 +445,7 @@ transform: translateY(0);
     margin-left: 156px;
 }
 .footer-logo-web {
-    color: #f4f4fd;;
+    color: #f4f4fd;
 }
 .footer-text {
     font-family: "Roboto", sans-serif;
@@ -449,11 +463,42 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #fff;
+color: #FFFFFF;
 margin-bottom: 16px;
 max-width: 280px;
 }
 .footer-container{
     display: flex;
-    gap: 120px;
+    gap: 16px;
+    align-items: baseline;
+    margin-right: 120px;
 }
+.footer-icon :hover {
+    background-color:#31d0aa;
+}
+.footer-icon :focus{background-color:#31d0aa;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+    fill: #f4f4fd;
+}
+    .footer-link{
+        width: 40px;
+        height: 40px;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-icon-item{
+        transition: background-color 250ms 
+        cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .footer-icon-item{
+        width: 40px;
+        height: 40px;
+    }
